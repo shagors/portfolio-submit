@@ -547,7 +547,64 @@
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i> Talk to me
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">shajjadshagor@gmail.com</span>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp</span>
+                                <span class="contact__data-info">+8801770877400</span>
+                                <a href="https://api.whatsapp.com/send?phone=8801770877400&text=Hello, more information!" class="contact__button" target="
+                                ">Write me <i class="ri-arrow-right-line"></i></a>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Messenger</span>
+                                <span class="contact__data-info">@shajadshagor</span>
+                                <a href="https://m.me/incorrectshagor" target="_blank" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- form -->
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Write me your project
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Names</label>
+                                <input type="text" name="user_name" required placeholder="write your names" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Email</label>
+                                <input type="email" name="user_email" required placeholder="write your email" class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Text Me</label>
+                                <textarea name="user_project" placeholder="write what you want from me?" class="contact__form-input" id="contact-project"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">Submit <i class="ri-arrow-right-up-line"></i></button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
 
@@ -567,7 +624,7 @@
         <script src="assets/js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
-        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
