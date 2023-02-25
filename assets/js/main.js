@@ -65,25 +65,6 @@ const contactEmail = document.getElementById("contact-email");
 const contactProject = document.getElementById("contact-project");
 const contactMessage = document.getElementById("contact-message");
 
-const sendEmail = (e) => {
-  e.preventDefault();
-
-  // value check
-  if (
-    contactName.value === "" ||
-    contactEmail.value === "" ||
-    contactProject.value === ""
-  ) {
-    contactMessage.classList.remove("color-blue");
-    contactMessage.classList.add("color-red");
-
-    // show message
-    contactMessage.textContent = "Write all the input fields";
-  } else {
-    //serviceID - templateID - #form - publicKey
-  }
-};
-
 contactForm.addEventListener("submit", sendEmail);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
